@@ -9,13 +9,22 @@ This project is to help analyse and study how different fund raising campaigns f
 
 ### Theater Outcomes by launch date
 
-In order to address the client requirements mentioned above, the data has been filtered for the theater category and the number of campaigns that were successful, failed or cancelled are displayed against the launch month for every year. The attached spreadsheet can be referred to,for the table. The same can be visualized here.
+In order to address the client requirements mentioned above, the data has been filtered for the theater category and the number of campaigns that were successful, failed or cancelled are displayed against the launch month for every year. The relevant table can be found in this excel file.
+[Kickstarter_Challenge](kickstarter-analysis/Kickstarter_Challenge.xlsx).
+
+ The same can be visualized here.
+![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
+
 
 The primary challenge here was the spread of campaign launch dates across several years. First the launch dates had to be converted into a more readable format and then the year extracted from the date. A pivot table was created with a filter by Year and data was further categorized by months.  It is now possible to view campaign outcomes by month for All Years or for specific years. 
 
 ### Outcomes Based on Goals
 
-The number and percentage of successful, failed and canceled campaigns for plays have been calculated against goal ranges - ranging from less than $1000 up to greater than $50000.Please refer to the attached spreadsheet for the table. The same has been represented here.
+The number and percentage of successful, failed and canceled campaigns for plays have been calculated against goal ranges - ranging from less than $1000 up to greater than $50000.The relevant table can be found in this excel file.
+[Kickstarter_Challenge](kickstarter-analysis/Kickstarter_Challenge.xlsx).
+
+The same has been represented here.
+![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
 
 The challenge here was the wide variety of fundraising goals. In order to address this the goals have been grouped into ranges and number of campaigns filtered and displayed within those ranges.
 
